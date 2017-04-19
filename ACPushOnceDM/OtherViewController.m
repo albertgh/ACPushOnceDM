@@ -1,20 +1,22 @@
 //
-//  ViewController.m
+//  OtherViewController.m
 //  ACPushOnceDM
 //
 //  Created by albertchu on 2017/4/19.
 //  Copyright © 2017年 albertchu. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "OtherViewController.h"
 
 #import "ChatViewController.h"
 
-@interface ViewController ()
+
+@interface OtherViewController ()
 
 @end
 
-@implementation ViewController
+
+@implementation OtherViewController
 
 #pragma mark - Action
 
@@ -26,16 +28,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
     
-    self.title = @"PushOnceDM";
-    
-    self.view.backgroundColor = [UIColor lightGrayColor];
+    self.title = @"Other";
+    self.view.backgroundColor = [UIColor orangeColor];
     
     self.navigationItem.rightBarButtonItem =
     [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
                                                   target:self
                                                   action:@selector(pushNext)];
+    
 }
 
 

@@ -10,9 +10,11 @@
 		FCA62D161EA7543F00CA2881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA62D151EA7543F00CA2881 /* main.m */; };
 		FCA62D191EA7543F00CA2881 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA62D181EA7543F00CA2881 /* AppDelegate.m */; };
 		FCA62D1C1EA7543F00CA2881 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA62D1B1EA7543F00CA2881 /* ViewController.m */; };
-		FCA62D1F1EA7543F00CA2881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA62D1D1EA7543F00CA2881 /* Main.storyboard */; };
 		FCA62D211EA7543F00CA2881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA62D201EA7543F00CA2881 /* Assets.xcassets */; };
 		FCA62D241EA7543F00CA2881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA62D221EA7543F00CA2881 /* LaunchScreen.storyboard */; };
+		FCA62D2D1EA7564000CA2881 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA62D2C1EA7564000CA2881 /* ChatViewController.m */; };
+		FCA62D301EA7564A00CA2881 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA62D2F1EA7564A00CA2881 /* OtherViewController.m */; };
+		FCA62D331EA7584B00CA2881 /* UINavigationController+ACPushOnceDM.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA62D321EA7584B00CA2881 /* UINavigationController+ACPushOnceDM.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +24,15 @@
 		FCA62D181EA7543F00CA2881 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FCA62D1A1EA7543F00CA2881 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FCA62D1B1EA7543F00CA2881 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FCA62D1E1EA7543F00CA2881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCA62D201EA7543F00CA2881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCA62D231EA7543F00CA2881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCA62D251EA7543F00CA2881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA62D2B1EA7564000CA2881 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		FCA62D2C1EA7564000CA2881 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		FCA62D2E1EA7564A00CA2881 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		FCA62D2F1EA7564A00CA2881 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		FCA62D311EA7584B00CA2881 /* UINavigationController+ACPushOnceDM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ACPushOnceDM.h"; sourceTree = "<group>"; };
+		FCA62D321EA7584B00CA2881 /* UINavigationController+ACPushOnceDM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ACPushOnceDM.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +65,16 @@
 		FCA62D131EA7543F00CA2881 /* ACPushOnceDM */ = {
 			isa = PBXGroup;
 			children = (
+				FCA62D311EA7584B00CA2881 /* UINavigationController+ACPushOnceDM.h */,
+				FCA62D321EA7584B00CA2881 /* UINavigationController+ACPushOnceDM.m */,
 				FCA62D171EA7543F00CA2881 /* AppDelegate.h */,
 				FCA62D181EA7543F00CA2881 /* AppDelegate.m */,
 				FCA62D1A1EA7543F00CA2881 /* ViewController.h */,
 				FCA62D1B1EA7543F00CA2881 /* ViewController.m */,
-				FCA62D1D1EA7543F00CA2881 /* Main.storyboard */,
+				FCA62D2B1EA7564000CA2881 /* ChatViewController.h */,
+				FCA62D2C1EA7564000CA2881 /* ChatViewController.m */,
+				FCA62D2E1EA7564A00CA2881 /* OtherViewController.h */,
+				FCA62D2F1EA7564A00CA2881 /* OtherViewController.m */,
 				FCA62D201EA7543F00CA2881 /* Assets.xcassets */,
 				FCA62D221EA7543F00CA2881 /* LaunchScreen.storyboard */,
 				FCA62D251EA7543F00CA2881 /* Info.plist */,
@@ -110,6 +122,7 @@
 				TargetAttributes = {
 					FCA62D101EA7543F00CA2881 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JYB7XJPHQS;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,7 +152,6 @@
 			files = (
 				FCA62D241EA7543F00CA2881 /* LaunchScreen.storyboard in Resources */,
 				FCA62D211EA7543F00CA2881 /* Assets.xcassets in Resources */,
-				FCA62D1F1EA7543F00CA2881 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,22 +163,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCA62D1C1EA7543F00CA2881 /* ViewController.m in Sources */,
+				FCA62D301EA7564A00CA2881 /* OtherViewController.m in Sources */,
 				FCA62D191EA7543F00CA2881 /* AppDelegate.m in Sources */,
+				FCA62D2D1EA7564000CA2881 /* ChatViewController.m in Sources */,
 				FCA62D161EA7543F00CA2881 /* main.m in Sources */,
+				FCA62D331EA7584B00CA2881 /* UINavigationController+ACPushOnceDM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FCA62D1D1EA7543F00CA2881 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCA62D1E1EA7543F00CA2881 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FCA62D221EA7543F00CA2881 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -219,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -274,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JYB7XJPHQS;
 				INFOPLIST_FILE = ACPushOnceDM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ACCode.ACPushOnceDM;
@@ -285,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JYB7XJPHQS;
 				INFOPLIST_FILE = ACPushOnceDM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ACCode.ACPushOnceDM;
